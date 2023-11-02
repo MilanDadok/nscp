@@ -222,3 +222,5 @@ check_nrpe::check_nrpe() : client_("nrpe", boost::make_shared<nrpe_client_handle
 void check_nrpe::query(const PB::Commands::QueryRequestMessage &request, PB::Commands::QueryResponseMessage &response) {
 	client_.do_query(request, response);
 }
+
+// some change in source
